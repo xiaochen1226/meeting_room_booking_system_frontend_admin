@@ -8,7 +8,7 @@ import { SearchBooking } from '../pages/booking-manage/booking-manage';
 import dayjs from 'dayjs';
 
 const axiosInstance = axios.create({
-    baseURL: 'http://localhost:3000',
+    baseURL: 'http://39.108.118.4:81/api',
     timeout: 3000
 })
 
